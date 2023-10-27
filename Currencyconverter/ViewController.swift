@@ -76,6 +76,10 @@ class ViewController: UIViewController {
                                 if let Try = rates["TRY"] as? Double{
                                     self.trylabel.text = "TRY:\(Try)"
                                 }
+                                if let eur = rates["EUR"] as? Double{
+                                    self.aznlabel.text = "EUR:\(eur)"
+                                }
+                              
                                 
                               
                             }
